@@ -1,8 +1,4 @@
---
- Create database `test`
---
- 
---CREATE DATABASE `test`;
+CREATE DATABASE `test`;
  
 use `test`;
  
