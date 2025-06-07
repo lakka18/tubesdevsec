@@ -1,8 +1,8 @@
 --
--- Create database `test`
+ Create database `test`
 --
  
-CREATE DATABASE `test`;
+--CREATE DATABASE `test`;
  
 use `test`;
  
@@ -40,7 +40,7 @@ CREATE TABLE `user` (
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `updated_at`varchar(255) NULL DEFAULT NULL,
-  PRIMARY_KEY (`id`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
 
 --
